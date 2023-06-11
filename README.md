@@ -1,7 +1,7 @@
 # LobberCart E-Commerce Website
 Welcome to An e-commerce website solely for a clothing brand
 Whose entire items(products names, images, description, prices) were fetched from another website, which is;
-#[Fake Store Api](https://fakestoreapi.com)
+[Fake Store Api](https://fakestoreapi.com)
 
 
 ---
