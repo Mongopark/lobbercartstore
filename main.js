@@ -84,7 +84,6 @@ fetch('https://fakestoreapi.com/products')
 let output = '<i></i>';
 for (var i = 0; i < dataname.length; i++){
 threetopimages[0].src= dataname[16].image;
-threetopimages[0].style.width="50%";
 threetopimages[1].src= dataname[17].image;
 threetopimages[2].src= dataname[18].image;
 }})
