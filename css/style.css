@@ -628,14 +628,15 @@ ul .has-children {
 
 }
 .sneaker__name{
+    margin-bottom: var(--mb-3);
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.sneaker__preci{
     margin-bottom: 2rem;
     height: 1rem;
     font-size: var(--big-font-size);
-}
-.sneaker__preci{
-     margin-bottom: var(--mb-3);
-    font-size: 1rem;
-    text-align: center;
 
 }
 .sneaker:hover{
