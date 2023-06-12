@@ -37,9 +37,9 @@ for (var i = 0; i < title.length; i++) {
 fetch('https://fakestoreapi.com/products')
 .then(res=>res.json())
 .then(dataname => {
-let output = '<i></i>';
+let output = '<i><u>Title</u>:  </i>';
 for (var i = 0; i < dataname.length; i++){
-title[i].innerHTML= dataname[i].title
+title[i].innerHTML= output + dataname[i].title
 }})
 .catch(err=> {title[i].innerHTML=err})
 }
@@ -48,7 +48,7 @@ for (var i = 0; i < price.length; i++) {
 fetch('https://fakestoreapi.com/products')
 .then(res=>res.json())
 .then(dataname => {
-let output = '<i></i>';
+let output = '<i><u></u></i>';
 for (var i = 0; i < dataname.length; i++){
 price[i].innerHTML= `$ ${dataname[i].price}`
 }})
@@ -59,9 +59,9 @@ for (var i = 0; i < category.length; i++) {
 fetch('https://fakestoreapi.com/products')
 .then(res=>res.json())
 .then(dataname => {
-let output = '<i></i>';
+let output = '<i><u>Category</u>:  </i>';
 for (var i = 0; i < dataname.length; i++){
-category[i].innerHTML= dataname[i].category
+category[i].innerHTML= output + dataname[i].category
 }})
 .catch(err=> {category[i].innerHTML=err})
 }
@@ -70,9 +70,9 @@ for (var i = 0; i < description.length; i++) {
 fetch('https://fakestoreapi.com/products')
 .then(res=>res.json())
 .then(dataname => {
-let output = '<i></i>';
+let output = '<i><u>Description</u>:  </i>';
 for (var i = 0; i < dataname.length; i++){
-description[i].innerHTML= dataname[i].description
+description[i].innerHTML= output + dataname[i].description
 }})
 .catch(err=> {description[i].innerHTML=err})
 }
@@ -81,7 +81,7 @@ for (var i = 0; i < threetopimages.length; i++) {
 fetch('https://fakestoreapi.com/products')
 .then(res=>res.json())
 .then(dataname => {
-let output = '<i></i>';
+let output = '<i><u></u></i>';
 for (var i = 0; i < dataname.length; i++){
 threetopimages[0].src= dataname[16].image;
 threetopimages[1].src= dataname[17].image;
@@ -94,7 +94,7 @@ for (var i = 0; i < images.length; i++) {
 fetch('https://fakestoreapi.com/products')
 .then(res=>res.json())
 .then(dataname => {
-let output = '<i></i>';
+let output = '<i><u></u></i>';
 for (var i = 0; i < dataname.length; i++){
 images[i].src= dataname[i].image;
 }})

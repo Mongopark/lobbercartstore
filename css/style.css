@@ -631,7 +631,7 @@ ul .has-children {
     margin-bottom: var(--mb-3);
     font-size: 1rem;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
 }
 .sneaker__preci{
     margin-bottom: 2rem;
